@@ -329,7 +329,6 @@ html {
 }
 /* =========== Gallery ========= */
 #gallery{
-    min-height: 130vh ;
     background-color: var(--bgColor-1);
     padding: 50px 0;
 }
@@ -788,3 +787,4 @@ body.dark #chefs .container .chefs .chef .chef-img::before{
     height: 60px;
 
 }
+
