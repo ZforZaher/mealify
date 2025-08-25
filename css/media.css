@@ -247,13 +247,13 @@
     width: 25%;
     }
 }
-@media screen and (min-width:992px){
-     #gallery .container .gl-meals{
+@media  (min-width:1200px) and (max-width:1399px){
+    #gallery .container .gl-meals{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
-    height: 1300px;
+    height: 1000px;
 }
 @media screen and (min-width:1200px){
     #gallery .container .gl-meals{
@@ -264,5 +264,12 @@
     height: 1400px;
 }
 @media screen and (min-width:1400px){
-
+    #gallery .container .gl-meals{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    height: 1400px;
 }
+}
+
